@@ -1,0 +1,18 @@
+{
+  "name": "chaibackend",
+  "version": "1.0.0",
+  "description": "a basic app to deploy",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "chai"
+  ],
+  "author": "naveen tanniru",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.2"
+  }
+}
