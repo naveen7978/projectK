@@ -8,7 +8,7 @@
 
   "type": "module",
 
-  "scripts": { 
+  "scripts": {
 
     "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
 
@@ -38,11 +38,17 @@
 
   "dependencies": {
 
+    "bcrypt": "^6.0.0",
+
     "dotenv": "^17.2.2",
 
     "express": "^5.1.0",
 
-    "mongoose": "^8.18.1"
+    "jsonwebtoken": "^9.0.2",
+
+    "mongoose": "^8.18.1",
+
+    "mongoose-aggregate-paginate-v2": "^1.1.4"
 
   }
 
